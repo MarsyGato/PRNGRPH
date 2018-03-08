@@ -5,7 +5,7 @@ const bot = new Discord.Client()
 bot.login(process.env.TOKEN)
 
 bot.on('message', message => {
-  if (message.content === '!lu$t') || (message.content === !lust) {
+  if (message.content === '!lu$t' || message.content === '!lust') {
  
     
 var pic = Math.floor(Math.random() * 16)
