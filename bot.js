@@ -8,7 +8,7 @@ bot.on('message', message => {
   if (message.content === '!lu$t') {
  
     
-var pic = Math.floor(Math.random() * 2)
+var pic = Math.floor(Math.random() * 3)
     
       if (pic === 2) {
       message.channel.send({
