@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 
-bot.login('NDIxMDc2OTI0ODQ1MjYwODE2.DYIFqw.EpPHTbAhRQWFTNOM95p3irrzhxg')
+bot.login(process.env.TOKEN)
 
 bot.on('message', message => {
   if (message.content === '!lu$t') {
