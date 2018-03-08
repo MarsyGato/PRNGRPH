@@ -8,9 +8,7 @@ bot.on('message', message => {
   if (message.content === '!lu$t') {
  
     
-    pic = getRndInteger(0,2);
-    function getRndInteger(min, max) {
-        return Math.floor(Math.random() * (max - min + 1) ) + min;
+var pic Math.floor(Math.random() * 2);
     } 
     
       if (pic === '2') {
