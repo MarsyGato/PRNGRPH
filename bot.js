@@ -7,6 +7,6 @@ bot.login(process.env.TOKEN)
 bot.on('message', message => {
   if (message.content === '!lu$t') {
     message.channel.send({
-    file: 'https://cdn.discordapp.com/attachments/353588490866262016/421272481077395456/porn.gif'});
+    file: 'https://media.discordapp.net/attachments/374203224498110468/421272414622711819/wallhaven-598110.jpg?width=546&height=402'});
   }
 })
